@@ -1,3 +1,4 @@
+// crear un programa en flutter que tenga un constructor con atributos nombrados y metodos que retornen valores//
 void main() {
   Calculadora calculadora = new Calculadora(n1: 1, n2: 2, n3: 2, nombre:"Juan",apellido:"Perez");
   print("Nombre: ${calculadora.nombre}");

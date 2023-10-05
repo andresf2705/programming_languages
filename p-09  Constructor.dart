@@ -1,13 +1,16 @@
+//Crear un programa que instancie una clase con un constructor//
+
 void main() {
   Aprendiz aprendiz1 = new Aprendiz(123456, "123juan@gmail.com");
   aprendiz1.dis = 0;
   aprendiz1.edad = 19;
- 
   print(aprendiz1.id);
   print(aprendiz1.email);
   print(aprendiz1.dis);
   print(aprendiz1.edad);
  
+   print("----------------------------------------------------------");
+  
   Aprendiz aprendiz2 = new Aprendiz(9999, "Mario9@gmail.com");
   aprendiz2.dis = 1;
   aprendiz2.edad = 18;
@@ -17,6 +20,8 @@ void main() {
   print(aprendiz2.dis);
   print(aprendiz2.edad);
  
+   print("----------------------------------------------------------");
+  
   Aprendiz aprendiz3 = new Aprendiz(2222, "Duvan2@gmail.com");
   aprendiz3.dis = 1;
   aprendiz3.edad = 22;
@@ -25,6 +30,8 @@ void main() {
   print(aprendiz3.email);
   print(aprendiz3.dis);
   print(aprendiz3.edad);
+  
+   print("----------------------------------------------------------");
  
   Aprendiz aprendiz4 = new Aprendiz(3333, "Marisol3@gmail.com");
   aprendiz4.dis = 1;
@@ -35,6 +42,8 @@ void main() {
   print(aprendiz4.dis);
   print(aprendiz4.edad);
  
+   print("----------------------------------------------------------");
+  
   Aprendiz aprendiz5 = new Aprendiz(5555, "Martin5@gmail.com");
   aprendiz5.dis = 0;
   aprendiz5.edad = 23;  
